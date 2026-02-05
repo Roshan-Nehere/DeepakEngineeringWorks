@@ -1,15 +1,20 @@
 import { useState } from "react";
 import { Award, Target, Users, Wrench, Mail, Linkedin } from "lucide-react";
-import papa from "../assets/Team/papa.jpeg";
-import deepak from "../assets/Team/deepak.jpeg";
-import roshan from "../assets/Team/roshan.png";
-import tushar from "../assets/Team/tushar.jpeg";
-import shubham from "../assets/Team/shubham.jpeg";
-import rupesh from "../assets/Team/rupesh.jpeg";
+// import papa from "../assets/Team/papa.jpeg";
+// import deepak from "../assets/Team/deepak.jpeg";
+// import roshan from "../assets/Team/roshan.png";
+// import tushar from "../assets/Team/tushar.jpeg";
+// import shubham from "../assets/Team/shubham.jpeg";
+// import rupesh from "../assets/Team/rupesh.jpeg";
 
 
 const images= {
-  papa, deepak, roshan, tushar, shubham,rupesh
+   papa: "/team/papa.jpeg",
+  deepak: "/team/deepak.jpeg",
+  roshan: "/team/roshan.png",
+  tushar: "/team/tushar.jpeg",
+  shubham: "/team/shubham.jpeg",
+  rupesh: "/team/rupesh.jpeg",
 };
 
 function ShowAbout() {
